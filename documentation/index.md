@@ -34,3 +34,15 @@ A static, responsive multipage skincare & beauty e-commerce front-end template b
 
 ## Deployment
 This project is static and can be deployed to GitHub Pages, Netlify or standard static hosting.
+
+## Form integration
+Forms currently prevent default submission and show demo success/error feedback. Replace the form action/method or connect Netlify Forms/Formspree.
+
+## Payment placeholders
+Checkout UI mentions Stripe and PayPal but intentionally includes no API credentials.
+
+## Browser support
+Designed for current Chrome, Firefox, Safari and Edge.
+
+## Accessibility
+Includes skip link, visible labels, focus states, semantic headings, responsive layouts and reduced-motion friendly structure.
