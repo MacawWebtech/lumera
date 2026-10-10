@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="190" viewBox="0 0 760 190" role="img" aria-labelledby="title desc">
+  <title id="title">Lumera Skincare logo</title>
+  <desc id="desc">A refined botanical emblem beside the Lumera wordmark.</desc>
+  <g transform="translate(24 20)">
+    <circle cx="75" cy="75" r="63" fill="none" stroke="#B65F7A" stroke-width="4"/>
+    <path d="M75 124 C48 107 42 83 55 62 C64 48 75 37 75 37 C75 37 86 48 95 62 C108 83 102 107 75 124Z" fill="#B65F7A" opacity=".16"/>
+    <path d="M75 123 C63 101 61 79 75 51 C89 79 87 101 75 123Z" fill="#B65F7A"/>
+    <path d="M75 123 C54 107 49 88 55 72 C61 77 69 85 75 96" fill="none" stroke="#F7F1F3" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M75 123 C96 107 101 88 95 72 C89 77 81 85 75 96" fill="none" stroke="#F7F1F3" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <text x="184" y="121" fill="#F7F1F3" font-family="Georgia, 'Times New Roman', serif" font-size="78" letter-spacing="4">LUMERA</text>
+  <text x="190" y="151" fill="#B65F7A" font-family="Arial, sans-serif" font-size="15" letter-spacing="5.5">SKINCARE</text>
+</svg>
