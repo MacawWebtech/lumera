@@ -1,0 +1,137 @@
+
+html[dir="rtl"] .desktop-nav{
+  margin-left:0;
+  margin-right:auto;
+}
+html[dir="rtl"] .nav-dropdown-menu{
+  left:auto;
+  right:0;
+}
+html[dir="rtl"] .page-hero:before{
+  background:linear-gradient(270deg,rgba(21,18,20,.78),rgba(21,18,20,.24));
+}
+html[dir="rtl"] .notice{
+  border-left:0;
+  border-right:4px solid var(--primary);
+}
+html[dir="rtl"] .hero-grid,
+html[dir="rtl"] .split,
+html[dir="rtl"] .shop-layout,
+html[dir="rtl"] .account-layout,
+html[dir="rtl"] .blog-layout,
+html[dir="rtl"] .footer-grid{
+  direction:rtl;
+}
+html[dir="rtl"] .hero-grid > *,
+html[dir="rtl"] .split > *,
+html[dir="rtl"] .shop-layout > *,
+html[dir="rtl"] .account-layout > *,
+html[dir="rtl"] .blog-layout > *,
+html[dir="rtl"] .footer-grid > *{
+  direction:ltr;
+}
+html[dir="rtl"] .nav-wrap{
+  direction:rtl;
+}
+html[dir="rtl"] .nav-wrap > *{
+  direction:ltr;
+}
+html[dir="rtl"] .mobile-panel{
+  direction:rtl;
+}
+html[dir="rtl"] .mobile-panel > *{
+  direction:ltr;
+}
+html[dir="rtl"] .toolbar,
+html[dir="rtl"] .section-head,
+html[dir="rtl"] .btn-row,
+html[dir="rtl"] .product-actions,
+html[dir="rtl"] .footer-bottom{
+  flex-direction:row-reverse;
+}
+html[dir="rtl"] .timeline{
+  direction:rtl;
+}
+html[dir="rtl"] .timeline > *{
+  direction:ltr;
+}
+html[dir="rtl"] .cart-item{
+  direction:rtl;
+}
+html[dir="rtl"] .cart-item > *{
+  direction:ltr;
+}
+
+
+/* Footer mirrors the full RTL layout instead of keeping the LTR reference grid. */
+html[dir="rtl"] .footer.footer-reference-layout{
+  direction:rtl;
+  text-align:right;
+}
+html[dir="rtl"] .footer-reference-grid{
+  direction:rtl;
+}
+html[dir="rtl"] .footer-reference-grid > *{
+  direction:rtl;
+  text-align:right;
+}
+html[dir="rtl"] .footer-reference-col a:hover{
+  transform:translateX(-3px);
+}
+html[dir="rtl"] .commitment-mark{
+  direction:rtl;
+  grid-template-columns:1fr 38px;
+}
+html[dir="rtl"] .commitment-mark > span{
+  grid-column:2;
+}
+html[dir="rtl"] .commitment-mark > div{
+  grid-column:1;
+}
+html[dir="rtl"] .footer-line-form{
+  direction:rtl;
+}
+html[dir="rtl"] .footer-social-row{
+  direction:rtl;
+}
+html[dir="rtl"] .footer-reference-bottom{
+  direction:rtl;
+}
+html[dir="rtl"] .footer-reference-bottom span:nth-child(3){
+  text-align:left;
+}
+
+/* Keep the Lumera footer in its standard LTR layout even when the page RTL toggle is active. */
+html[dir="rtl"] .footer.footer-reference-layout{
+  direction:ltr;
+  text-align:left;
+}
+html[dir="rtl"] .footer.footer-reference-layout .footer-reference-grid,
+html[dir="rtl"] .footer.footer-reference-layout .footer-reference-grid > *,
+html[dir="rtl"] .footer.footer-reference-layout .commitment-mark,
+html[dir="rtl"] .footer.footer-reference-layout .footer-line-form,
+html[dir="rtl"] .footer.footer-reference-layout .footer-social-row,
+html[dir="rtl"] .footer.footer-reference-layout .footer-reference-bottom{
+  direction:ltr;
+}
+html[dir="rtl"] .footer.footer-reference-layout .footer-reference-grid > *{
+  text-align:left;
+}
+html[dir="rtl"] .footer.footer-reference-layout .commitment-mark{
+  grid-template-columns:38px 1fr;
+}
+html[dir="rtl"] .footer.footer-reference-layout .commitment-mark > span{
+  grid-column:auto;
+}
+html[dir="rtl"] .footer.footer-reference-layout .commitment-mark > div{
+  grid-column:auto;
+}
+html[dir="rtl"] .footer.footer-reference-layout .footer-reference-bottom span:nth-child(2){
+  text-align:center;
+}
+html[dir="rtl"] .footer.footer-reference-layout .footer-reference-bottom span:nth-child(3){
+  text-align:right;
+}
+
+/* New footer stays LTR in RTL mode */
+html[dir="rtl"] .lm-footer{direction:ltr;text-align:left}
